@@ -1,0 +1,9 @@
+fhand=open('mbox-short.txt')
+#for line in fhand:
+	#line=line.rstrip()
+	#if not line.strartswith('From:'):
+		#continue
+	#print(line)
+inp=fhand.read()
+print(len(inp))
+print(inp[:20])
